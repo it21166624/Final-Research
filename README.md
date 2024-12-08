@@ -21,6 +21,7 @@ IoT Devices: For environmental data collection.
 Frontend Framework: React.
 
 GitHub Repository Link - https://github.com/it21166624/Final-Research
+Drive Link For System Architecture Diagram - https://mysliit-my.sharepoint.com/:i:/g/personal/it21189562_my_sliit_lk/ERaFrEZjt6pBvZ-aNMlk-xwBpBlZLhUonGBkl4jthPzE9A?e=aOfEBF
 
 bash
 Copy code
@@ -60,3 +61,11 @@ Separate Model For Image Proccessing and Object Detection
 Enhanced algorithms for better accuracy.
 Contribution 🤝
 
+--------------------------
+Individual Contribution
+--------------------------
+
+IT21166624 - Nawod G.A.D - Animal Stress Management
+IT21171192 - Rathnayake R.M.D.A - Humidity and Ventilation Management
+IT21189562 - Dodangoda P.N - Lightning Management
+IT21176906 - Deshitha N.A.M.P - Temperature Management
