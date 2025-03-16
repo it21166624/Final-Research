@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Migrations\\20250316021938_newsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Egg_Pedict_BackEnd\\Migrations\\20250316021938_newsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\services\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\services\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\model\\livedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\model\\livedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\controllers\\senserdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\controllers\\senserdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|c:\\project\\final-research\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\model\\stressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\model\\stressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250316021938_newsetup.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Migrations\\20250316021938_newsetup.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Migrations\\20250316021938_newsetup.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Migrations\\20250316021938_newsetup.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Migrations\\20250316021938_newsetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T02:19:38.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\appsettings.json",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\appsettings.json",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T02:16:28.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Program.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Program.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:43:42.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationBackgroundService.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:38:02.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StressData.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:04:11.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SenserDataController.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:41:55.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LiveData.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:37:12.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MqttService.cs",
+              "DocumentMoniker": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "ToolTip": "C:\\Project\\Final-Research\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAawLgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:32:35.209Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
