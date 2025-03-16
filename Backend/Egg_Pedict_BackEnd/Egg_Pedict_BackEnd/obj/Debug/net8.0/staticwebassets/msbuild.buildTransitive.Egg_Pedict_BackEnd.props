@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Egg_Pedict_BackEnd.props" />
+</Project>

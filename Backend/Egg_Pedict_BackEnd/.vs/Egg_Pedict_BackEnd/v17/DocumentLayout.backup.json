@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\services\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\services\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\services\\mqttservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\model\\livedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\model\\livedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\controllers\\senserdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\controllers\\senserdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\model\\stressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\model\\stressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Program.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Program.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:43:42.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationBackgroundService.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Services\\NotificationBackgroundService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:38:02.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StressData.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Model\\StressData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:04:11.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SenserDataController.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Controllers\\SenserDataController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:41:55.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LiveData.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Model\\LiveData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:37:12.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MqttService.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Services\\MqttService.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAawLgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:32:35.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
