@@ -3,6 +3,7 @@ using System;
 using Egg_Pedict_BackEnd.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Egg_Pedict_BackEnd.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250314162614_addnewABCtable")]
+    partial class addnewABCtable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,68 +25,23 @@ namespace Egg_Pedict_BackEnd.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Egg_Pedict_BackEnd.Model.LDRData", b =>
+            modelBuilder.Entity("Egg_Pedict_BackEnd.Model.ABC", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("LDRValue")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("LightStatus")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("LDRData");
-                });
-
-            modelBuilder.Entity("Egg_Pedict_BackEnd.Model.LiveData", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<double>("Egg_count")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Feed_Quantity")
-                        .HasColumnType("double precision");
-
-                    b.Property<string>("Health_Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<double>("Hen_Age_weeks")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Hen_Count")
-                        .HasColumnType("double precision");
 
                     b.Property<double>("Humidity")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Light_Hours")
                         .HasColumnType("double precision");
 
                     b.Property<double>("Temperature")
                         .HasColumnType("double precision");
 
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("timestamp with time zone");
-
                     b.HasKey("Id");
 
-                    b.ToTable("LiveData");
+                    b.ToTable("abc");
                 });
 
             modelBuilder.Entity("Egg_Pedict_BackEnd.Model.SenserDataNew", b =>
@@ -166,56 +124,6 @@ namespace Egg_Pedict_BackEnd.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SensorData");
-                });
-
-            modelBuilder.Entity("Egg_Pedict_BackEnd.Model.StressData", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AirQuality")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<double>("BodyTemperature")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("CageDensity")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("FeedIntakePerHen")
-                        .HasColumnType("double precision");
-
-                    b.Property<int>("Heartbeat")
-                        .HasColumnType("integer");
-
-                    b.Property<double>("Humidity")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Lighting")
-                        .HasColumnType("double precision");
-
-                    b.Property<int>("StressLevel")
-                        .HasColumnType("integer");
-
-                    b.Property<double>("Temperature")
-                        .HasColumnType("double precision");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<double>("Vocalization")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("WaterIntakePerHen")
-                        .HasColumnType("double precision");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("StressData");
                 });
 #pragma warning restore 612, 618
         }

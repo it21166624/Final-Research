@@ -11,6 +11,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Register MQTT service
 builder.Services.AddHostedService<MqttService>();
 
+
+// Notification background service
+builder.Services.AddHostedService<NotificationBackgroundService>();
+
 // Add services to the container.
 
 builder.Services.AddControllers();

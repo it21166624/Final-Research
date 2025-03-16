@@ -3,6 +3,7 @@ using System;
 using Egg_Pedict_BackEnd.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Egg_Pedict_BackEnd.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250315130852_addnewStressDataTable")]
+    partial class addnewStressDataTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,47 +46,6 @@ namespace Egg_Pedict_BackEnd.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("LDRData");
-                });
-
-            modelBuilder.Entity("Egg_Pedict_BackEnd.Model.LiveData", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<double>("Egg_count")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Feed_Quantity")
-                        .HasColumnType("double precision");
-
-                    b.Property<string>("Health_Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<double>("Hen_Age_weeks")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Hen_Count")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Humidity")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Light_Hours")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Temperature")
-                        .HasColumnType("double precision");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("LiveData");
                 });
 
             modelBuilder.Entity("Egg_Pedict_BackEnd.Model.SenserDataNew", b =>
