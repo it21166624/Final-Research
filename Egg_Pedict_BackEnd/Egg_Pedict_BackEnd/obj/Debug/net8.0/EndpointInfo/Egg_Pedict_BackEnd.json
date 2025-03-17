@@ -1,0 +1,211 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Egg_Pedict_BackEnd",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Prediction/EggPredict": {
+      "post": {
+        "tags": [
+          "Prediction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SensorData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SensorData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SensorData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Prediction/AnimalStress": {
+      "post": {
+        "tags": [
+          "Prediction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StressData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StressData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StressData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/sensordata/lighthours": {
+      "get": {
+        "tags": [
+          "SenserData"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SensorData": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperature": {
+            "type": "number",
+            "format": "double"
+          },
+          "humidity": {
+            "type": "number",
+            "format": "double"
+          },
+          "light_Hours": {
+            "type": "number",
+            "format": "double"
+          },
+          "hen_Age_weeks": {
+            "type": "number",
+            "format": "double"
+          },
+          "feed_Quantity": {
+            "type": "number",
+            "format": "double"
+          },
+          "hen_Count": {
+            "type": "number",
+            "format": "double"
+          },
+          "egg_count": {
+            "type": "number",
+            "format": "double"
+          },
+          "health_Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StressData": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperature": {
+            "type": "number",
+            "format": "double"
+          },
+          "humidity": {
+            "type": "number",
+            "format": "double"
+          },
+          "feedIntakePerHen": {
+            "type": "number",
+            "format": "double"
+          },
+          "waterIntakePerHen": {
+            "type": "number",
+            "format": "double"
+          },
+          "airQuality": {
+            "type": "string",
+            "nullable": true
+          },
+          "lighting": {
+            "type": "number",
+            "format": "double"
+          },
+          "cageDensity": {
+            "type": "number",
+            "format": "double"
+          },
+          "vocalization": {
+            "type": "number",
+            "format": "double"
+          },
+          "bodyTemperature": {
+            "type": "number",
+            "format": "double"
+          },
+          "heartbeat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stressLevel": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
