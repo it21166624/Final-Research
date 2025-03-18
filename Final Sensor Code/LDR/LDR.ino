@@ -3,11 +3,11 @@
 
 #define relay_pin 4
 // WiFi Credentials
-const char* ssid = "Chana’s iPhone";
-const char* password = "123456789";
+const char* ssid = "iPhone";
+const char* password = "24681012";
 
 // MQTT Broker Info (Change if running remotely)
-const char* mqtt_server = "172.20.10.3";  // Replace with your machine's IP address
+const char* mqtt_server = "172.20.10.5";  // Replace with your machine's IP address
 const int mqtt_port = 1883;
 const char* mqtt_topic = "poultry/light_status";
 
