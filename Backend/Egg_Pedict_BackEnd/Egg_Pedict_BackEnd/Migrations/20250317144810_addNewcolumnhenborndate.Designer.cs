@@ -3,6 +3,7 @@ using System;
 using Egg_Pedict_BackEnd.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Egg_Pedict_BackEnd.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250317144810_addNewcolumnhenborndate")]
+    partial class addNewcolumnhenborndate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,9 +56,6 @@ namespace Egg_Pedict_BackEnd.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<double>("BodyTemp")
-                        .HasColumnType("double precision");
-
                     b.Property<DateTime>("Born_Date")
                         .HasColumnType("timestamp with time zone");
 
@@ -68,9 +68,6 @@ namespace Egg_Pedict_BackEnd.Migrations
                     b.Property<string>("Health_Status")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<double>("HeartRate")
-                        .HasColumnType("double precision");
 
                     b.Property<double>("Hen_Age_weeks")
                         .HasColumnType("double precision");

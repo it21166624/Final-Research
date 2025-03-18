@@ -15,5 +15,8 @@ namespace Egg_Pedict_BackEnd.Model
         public double Egg_count { get; set; }
         public string Health_Status { get; set; } = string.Empty;
         public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public DateTime Born_Date { get; set; } = DateTime.UtcNow;
+        public double HeartRate { get; set; }
+        public double BodyTemp { get; set; }
     }
 }

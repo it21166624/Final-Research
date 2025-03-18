@@ -112,13 +112,16 @@ namespace Egg_Pedict_BackEnd.Services
                             .ToList();
 
                         existingRecord.Light_Hours = lightHours.Sum(lh => lh.LightHours);
-                        existingRecord.Temperature = LiveData.Temperature; 
-                        existingRecord.Humidity = LiveData.Humidity; 
-                        existingRecord.Hen_Age_weeks = LiveData.Hen_Age_weeks; 
-                        existingRecord.Feed_Quantity = LiveData.Feed_Quantity;
-                        existingRecord.Hen_Count = LiveData.Hen_Count;
-                        existingRecord.Egg_count = LiveData.Egg_count;
-                        existingRecord.Health_Status = LiveData.Health_Status;
+                        existingRecord.Temperature = LiveData.Temperature > 0 ? LiveData.Temperature : existingRecord.Temperature; 
+                        existingRecord.Humidity = LiveData.Humidity > 0 ? LiveData.Humidity : existingRecord.Humidity;
+                        existingRecord.Hen_Age_weeks = LiveData.Hen_Age_weeks > 0 ? LiveData.Hen_Age_weeks : existingRecord.Hen_Age_weeks;
+                        existingRecord.Feed_Quantity = LiveData.Feed_Quantity > 0 ? LiveData.Feed_Quantity : existingRecord.Feed_Quantity;
+                        existingRecord.Hen_Count = LiveData.Hen_Count > 0 ? LiveData.Hen_Count : existingRecord.Hen_Count;
+                        existingRecord.Egg_count = LiveData.Egg_count > 0 ? LiveData.Egg_count : existingRecord.Egg_count;
+                        existingRecord.HeartRate = LiveData.HeartRate > 0 ? LiveData.HeartRate : existingRecord.HeartRate;
+                        existingRecord.BodyTemp = LiveData.BodyTemp > 0 ? LiveData.BodyTemp : existingRecord.BodyTemp;
+                        //existingRecord.Health_Status = LiveData.Temperature > 0 ? LiveData.Temperature : existingRecord.Temperature;
+                        existingRecord.Health_Status = LiveData.Health_Status ;
 
 
                         dbContext.LiveData.Update(existingRecord);
@@ -129,49 +132,49 @@ namespace Egg_Pedict_BackEnd.Services
                         _logger.LogWarning("⚠️ No existing record found with Id 1.");
                     }
                 }
-                if (LiveData != null)
-                {
-                    var existingRecord = await dbContext.LiveData.FirstOrDefaultAsync(x => x.Id == 1);
+                //if (LiveData != null)
+                //{
+                //    var existingRecord = await dbContext.LiveData.FirstOrDefaultAsync(x => x.Id == 1);
 
-                    if (existingRecord != null)
-                    {
-                        var ldrReadings = await dbContext.LDRData
-                            .OrderBy(r => r.Timestamp)
-                            .ToListAsync();
+                //    if (existingRecord != null)
+                //    {
+                //        var ldrReadings = await dbContext.LDRData
+                //            .OrderBy(r => r.Timestamp)
+                //            .ToListAsync();
 
-                        var lightHours = ldrReadings
-                            .GroupBy(r => r.Timestamp.Date)
-                            .Select(g =>
-                            {
-                                var periods = g.OrderBy(r => r.Timestamp).ToList();
-                                double totalSeconds = 0;
+                //        var lightHours = ldrReadings
+                //            .GroupBy(r => r.Timestamp.Date)
+                //            .Select(g =>
+                //            {
+                //                var periods = g.OrderBy(r => r.Timestamp).ToList();
+                //                double totalSeconds = 0;
 
-                                for (int i = 1; i < periods.Count; i++)
-                                {
-                                    if (periods[i - 1].LightStatus == "ON")
-                                    {
-                                        totalSeconds += (periods[i].Timestamp - periods[i - 1].Timestamp).TotalSeconds;
-                                    }
-                                }
+                //                for (int i = 1; i < periods.Count; i++)
+                //                {
+                //                    if (periods[i - 1].LightStatus == "ON")
+                //                    {
+                //                        totalSeconds += (periods[i].Timestamp - periods[i - 1].Timestamp).TotalSeconds;
+                //                    }
+                //                }
 
-                                return new
-                                {
-                                    Date = g.Key,
-                                    LightHours = totalSeconds / 3600.0 // Convert seconds to hours
-                                };
-                            })
-                            .ToList();
+                //                return new
+                //                {
+                //                    Date = g.Key,
+                //                    LightHours = totalSeconds / 3600.0 // Convert seconds to hours
+                //                };
+                //            })
+                //            .ToList();
 
-                        existingRecord.Light_Hours = lightHours.Sum(lh => lh.LightHours);
+                //        existingRecord.Light_Hours = lightHours.Sum(lh => lh.LightHours);
 
-                        dbContext.LiveData.Update(existingRecord);
-                        _logger.LogInformation("🔄 Sensor Live Data Updated Successfully.");
-                    }
-                    else
-                    {
-                        _logger.LogWarning("⚠️ No existing record found with Id 1.");
-                    }
-                }
+                //        dbContext.LiveData.Update(existingRecord);
+                //        _logger.LogInformation("🔄 Sensor Live Data Updated Successfully.");
+                //    }
+                //    else
+                //    {
+                //        _logger.LogWarning("⚠️ No existing record found with Id 1.");
+                //    }
+                //}
 
 
                 if (topic == "sensor/data")

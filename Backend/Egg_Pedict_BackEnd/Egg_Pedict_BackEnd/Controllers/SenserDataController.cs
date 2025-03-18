@@ -46,5 +46,14 @@ namespace Egg_Pedict_BackEnd.Controllers
 
             return Ok(lightHours);
         }
+
+        [HttpGet("liveData")]
+        public async Task<ActionResult<IEnumerable<object>>> GetLiveData()
+        {
+            var liveData = await _context.LiveData
+                .ToListAsync();
+
+            return Ok(liveData);
+        }
     }
 }
