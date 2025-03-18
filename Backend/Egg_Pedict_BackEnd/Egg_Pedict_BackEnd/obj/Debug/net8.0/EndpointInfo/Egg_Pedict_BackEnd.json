@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SensorData"
+                "$ref": "#/components/schemas/SenserDataNew"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SensorData"
+                "$ref": "#/components/schemas/SenserDataNew"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SensorData"
+                "$ref": "#/components/schemas/SenserDataNew"
               }
             }
           }
@@ -98,11 +98,43 @@
           }
         }
       }
+    },
+    "/api/sensordata/liveData": {
+      "get": {
+        "tags": [
+          "SenserData"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "SensorData": {
+      "SenserDataNew": {
         "type": "object",
         "properties": {
           "id": {
@@ -129,6 +161,10 @@
             "type": "number",
             "format": "double"
           },
+          "health_Status": {
+            "type": "string",
+            "nullable": true
+          },
           "hen_Count": {
             "type": "number",
             "format": "double"
@@ -136,10 +172,6 @@
           "egg_count": {
             "type": "number",
             "format": "double"
-          },
-          "health_Status": {
-            "type": "string",
-            "nullable": true
           },
           "timestamp": {
             "type": "string",
