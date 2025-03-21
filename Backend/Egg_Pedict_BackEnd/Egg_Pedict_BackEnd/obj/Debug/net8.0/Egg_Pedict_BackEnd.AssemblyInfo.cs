@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Egg_Pedict_BackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8db05e53fe658a3e9ba35bd5db4757a70a50183a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e893ee1bf69f766d5355c6bbf7f1fa9c25505453")]
 [assembly: System.Reflection.AssemblyProductAttribute("Egg_Pedict_BackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Egg_Pedict_BackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
