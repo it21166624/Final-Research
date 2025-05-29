@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Egg_Pedict_BackEnd.props" />
-</Project>
