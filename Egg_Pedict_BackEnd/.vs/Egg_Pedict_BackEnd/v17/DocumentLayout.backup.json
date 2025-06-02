@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|d:\\chanaka\\my work\\github_dinuka\\final-research\\backend\\egg_pedict_backend\\egg_pedict_backend\\controllers\\predictioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C8A365-D9EF-4D8A-911D-746AD6238613}|Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd.csproj|solutionrelative:egg_pedict_backend\\controllers\\predictioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PredictionController.cs",
+              "DocumentMoniker": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Controllers\\PredictionController.cs",
+              "RelativeDocumentMoniker": "Egg_Pedict_BackEnd\\Controllers\\PredictionController.cs",
+              "ToolTip": "D:\\Chanaka\\My Work\\Github_Dinuka\\Final-Research\\Backend\\Egg_Pedict_BackEnd\\Egg_Pedict_BackEnd\\Controllers\\PredictionController.cs",
+              "RelativeToolTip": "Egg_Pedict_BackEnd\\Controllers\\PredictionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:17:27.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

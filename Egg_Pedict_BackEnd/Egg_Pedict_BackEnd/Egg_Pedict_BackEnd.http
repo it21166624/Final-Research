@@ -1,0 +1,6 @@
+@Egg_Pedict_BackEnd_HostAddress = http://localhost:5119
+
+GET {{Egg_Pedict_BackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
